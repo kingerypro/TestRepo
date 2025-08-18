@@ -54,6 +54,61 @@ main {
   padding: 0 2rem;
 }
 
+.releivant-info-section {
+  background-color: #e6f7ff; /* Light blue background */
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.releivant-info-section h2 {
+  color: #0050b3;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.releivant-info-section p {
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.releivant-info-section .info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.releivant-info-section .info-card {
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 45%;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.releivant-info-section .info-card h3 {
+  color: #007bff;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.releivant-info-section .info-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0;
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
