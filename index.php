@@ -14,6 +14,8 @@ try {
 }
 ?>
 
+<?php require_once 'partials/releivant_info.php'; // New modular section ?>
+
 <section class="products-grid">
   <?php if (empty($products)): ?>
     <p>No products found. Please add some to the database.</p>
